@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+
+body{  
+    display: flex;
+    justify-content: center;
+    background: #2E4C6D;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 80px;
+}
+
+.container{
+    display: flex;
+    column-gap: 80px;
+    row-gap: 70px;
+    flex-wrap: wrap;   
+    padding: 15px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 150px;
+    height: 250px;
+    border: 1px solid black;
+    background-color: #396EB0;
+    color: white;
+}
+
+.caixa-resultado{
+    width: 80px;
+    height: 80px;    
+    font-size: 50px;
+    display: flex;
+    color: black;
+    background-color: #DADDFC;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 80px;
+    height: 50px;
+    border: none;
+    font-size: 25px;
+    color: white;
+    background-color: #FC997C;
+}
+
+p{
+    font-size: 40px;
+}
+
+.clear-button{
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: #FC997C;    
+    margin: auto;
+}
+
+.off{
+    border: none;    
+}
